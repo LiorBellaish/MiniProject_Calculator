@@ -55,7 +55,7 @@ public class Main {
         capabilities.setCapability("resetkeyboard", true); //נטרול מקלדת
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub/"), capabilities);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    }
+    } //
 
     @AfterClass
     public static void afterClass() {
